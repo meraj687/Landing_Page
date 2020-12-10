@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro&family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+<body class="bg" background="https://banner2.cleanpng.com/20190606/upl/kisspng-nelson-mandela-apartheid-south-africa-education-im-5cf9da962fcb65.7365414615598782941958.jpg">
+    <div class="name">
+        
+        <h2 class="name1">Nelson Mandela</h2>
+        <p class="para">Real leaders must be ready to sacrifice all for the freedom of their people.</p>
+        <h1 class="dob">18 July 1918 - 5 December 2013</h1>
+    </div>
+   
+    
+</body>
+</html>
+
+
+----------------------CSS------------------
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+.bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.name {
+  text-align: center;
+  margin-top: 10cm;
+  font-family: 'Castoro', serif;
+  font-family: 'Nerko One', cursive;
+  font-size: 30px;
+}
+.name1 {
+  color: rgb(132, 81, 180);
+  font-size: 150px;
+}
+.para {
+  font-size: 40px;
+  color: darkblue;
+}
+.dob {
+  color: burlywood;
+}

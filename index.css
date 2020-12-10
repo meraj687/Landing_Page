@@ -1,0 +1,83 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+.bg {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.name {
+  text-align: center;
+  background-color: rgb(66, 153, 15);
+
+  color: rgb(172, 148, 116);
+  margin-top: 10cm;
+  background-size: 2px;
+  margin-left: 5cm;
+  margin-right: 5cm;
+  border-top-left-radius: 2cm;
+  border-bottom-right-radius: 2cm;
+  opacity: 1;
+}
+.name1 {
+  font-size: 100px;
+  font-family: 'Nerko One', cursive;
+  opacity: 1;
+}
+.dob {
+  font-family: 'Nerko One', cursive;
+  opacity: 1;
+}
+p {
+  font-family: 'Nerko One', cursive;
+  font-size: 40px;
+  opacity: 1;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+}
+.bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.name {
+  text-align: center;
+  justify-content: center;
+  margin-top: 12cm;
+}
+.name1 {
+  font-size: 100px;
+  color: blueviolet;
+  font-family: 'JetBrains Mono', monospace;
+}
+.dob {
+  font-size: 40px;
+  color: burlywood;
+  font-family: 'JetBrains Mono', monospace;
+}
+.para {
+  font-size: 40px;
+  color: cadetblue;
+  font-family: 'JetBrains Mono', monospace;
+  opacity: 1;
+}
